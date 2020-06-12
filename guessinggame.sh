@@ -1,5 +1,4 @@
 #!/bin/bash
-
 function guess_numbers_files {
 	numbers_files=$(ls -l $PWD | tail -n+2 | wc -l)
 	echo "Please, type number of files in the current directory"
